@@ -70,11 +70,37 @@ ul li a:hover {
 }
 table {
   border-collapse: collapse;
-  width: 100%;               
+  width: auto;                     
+  max-width: 1000px;                
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+  border: 1px solid
 }
 
-table, th, td {
-  border: 1px solid black; 
-  padding: 8px;              
-  text-align: left;          
+th, td {
+  border-bottom: 1px solid black;    
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: top;              
+}
+
+th {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+.itinerari { background-color: #82fa82;}
+.xarxes { background-color: #c98474;}
+.muntatge { background-color: #f7dfcb;}
+.optatiu { background-color: #b75ba9;}
+.sistemes { background-color: #f561cc;}
+.ofimatica { background-color: #cae682;}
+.tutoria { background-color: #d1b3ff;}
+.sostenibilitat { background-color: #b3c6ff;}
+.digitalitzacio { background-color: #ffe680;}
+.angles { background-color: #9cdad6;}
+
+.pati {
+  color: #666;
+  font-style: italic;
+  text-align: center;
 }
