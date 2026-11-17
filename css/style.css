@@ -104,3 +104,10 @@ th {
   font-style: italic;
   text-align: center;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; 
+    gap: 8px;         
+    margin: 20px;     
+}
