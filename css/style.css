@@ -116,17 +116,20 @@ th {
 .contacte form {
     display: flex;
     flex-direction: column;
+	border-radius: 10px;
 }
 
 .contacte label {
     font-weight: bold;
     margin-bottom: 5px;
+	border-radius: 10px;
 }
 
 .contacte input, .contacte textarea {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
+	border-radius: 10px;
 }
 
 .contacte button {
@@ -136,4 +139,5 @@ th {
     border: none;
     cursor: pointer;
     align-self: flex-start;
+	border-radius: 10px;
 }
