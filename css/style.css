@@ -104,10 +104,36 @@ th {
   font-style: italic;
   text-align: center;
 }
-form {
+.contacte {
+    background: white;
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+	border-radius: 5%;
+}
+
+.contacte form {
     display: flex;
     flex-direction: column;
-    max-width: 300px; 
-    gap: 8px;         
-    margin: 20px;     
+}
+
+.contacte label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contacte input, .contacte textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.contacte button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
 }
