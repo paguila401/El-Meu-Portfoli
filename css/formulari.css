@@ -1,0 +1,143 @@
+.contacte {
+  background: #f4f5f9;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.contacte h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #1f2937;
+}
+
+.contacte .subtitol {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #4b5563;
+  font-size: 14px;
+}
+.contacte > form > fieldset {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacte > form > fieldset > legend {
+  font-weight: bold;
+  font-size: 17px;
+  padding: 0 8px;
+  color: #111827;
+}
+
+.contacte .sub-grup {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+}
+
+.contacte .sub-grup legend {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 6px;
+}
+
+.contacte .opcions-linia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.contacte .opcions-linia label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.contacte label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #1f2937;
+}
+
+.contacte input[type="text"],
+.contacte input[type="email"],
+.contacte input[type="tel"],
+.contacte input[type="date"],
+.contacte input[type="url"],
+.contacte select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contacte input:user-invalid,
+.contacte select:user-invalid {
+  border-color: #ef4444;
+  background-color: #fef2f2;
+}
+
+.contacte input:user-valid,
+.contacte select:user-valid {
+  border-color: #10b981;
+  background-color: #f0fdf4;
+}
+
+
+
+.contacte input[type="range"] {
+  width: 100%;
+  margin-bottom: 18px;
+  accent-color: #4f46e5;
+  cursor: pointer;
+}
+
+
+.contacte .botons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.contacte button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contacte .btn-esborrar {
+  background: white;
+  color: #4f46e5;
+  border: 1.5px solid #4f46e5;
+}
+
+.contacte .btn-esborrar:hover {
+  background: #eef2ff;
+}
+
+.contacte .btn-enviar {
+  background: #4f46e5;
+  color: white;
+  border: 1.5px solid #4f46e5;
+}
+
+.contacte .btn-enviar:hover {
+  background: #4338ca;
+}
